@@ -25,7 +25,7 @@ function App() {
           <div className='Options-Container'>
             {/* Updated onClick handler */}
             <div className='Claim-Parent' onClick={() => setPage(<ClaimResponse />)}> 
-              <div>Your response to claim</div>
+              <div>Review Claim</div>
               <img className='Plus-Icon' src={Plus}></img>
             </div>
             <div className='Claim-Parent' onClick={() => setPage(<AccountManagement />)}>

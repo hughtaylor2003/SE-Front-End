@@ -1,16 +1,16 @@
 import React from 'react';
-import './Form.css';
+import './ClaimResponse.css';
 
 export default function ClaimResponse() {
   return (
     <div className='Form-Parent'>
-      <h1>Your Response to Claim</h1>
+      <h1>Claim Processing</h1>
       <div class="formbold-main-wrapper">
         <div class="formbold-form-wrapper">
           <form action="/submit-response" method="POST">
-            <h2>Please Accept or Reject the Claim</h2>
+            <h2>Your Response to Claim</h2>
             <div class="formbold-mb-3">
-              <label for="claimResponse" class="formbold-form-label">Response</label>
+              <label for="claimResponse" class="formbold-form-label">Please Accept or Reject Claim</label>
               <select id="claimResponse" class="formbold-form-input">
                 <option value="accept">Accept</option>
                 <option value="reject">Reject</option>

@@ -1,0 +1,59 @@
+/* Form parent styling for layout */
+.Form-Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Main form container styling */
+.formbold-main-wrapper {
+  margin-top: 20px;
+  width: 100%; /* Adjustable based on layout needs */
+}
+
+.formbold-form-wrapper {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Unified styling for input, select, and textarea elements */
+.formbold-form-input, select.formbold-form-input, textarea.formbold-form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Specific styling adjustments for textarea */
+textarea.formbold-form-input {
+  height: 150px; /* Can be adjusted based on your preference */
+  resize: vertical; /* Allows resizing only vertically */
+}
+
+/* Button styling for submission */
+.formbold-btn {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formbold-btn:hover {
+  background-color: #45a049;
+}
+
+/* Label styling for readability */
+.formbold-form-label {
+  margin-bottom: 8px;
+  display: block;
+}
