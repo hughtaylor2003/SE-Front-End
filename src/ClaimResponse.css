@@ -1,59 +1,58 @@
-/* Form parent styling for layout */
 .Form-Parent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 48px;
 }
 
-/* Main form container styling */
-.formbold-main-wrapper {
+.FormWrapper {
   margin-top: 20px;
-  width: 100%; /* Adjustable based on layout needs */
-}
-
-.formbold-form-wrapper {
-  background: #f2f2f2;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Unified styling for input, select, and textarea elements */
-.formbold-form-input, select.formbold-form-input, textarea.formbold-form-input {
+  max-width: 570px;
   width: 100%;
-  padding: 10px;
+}
+
+.FormContainer {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.FormInput, select.FormInput, textarea.FormInput {
+  width: 100%;
+  padding: 13px 22px;
   margin: 8px 0;
   display: block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #dde3ec;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 
-/* Specific styling adjustments for textarea */
-textarea.formbold-form-input {
-  height: 150px; /* Can be adjusted based on your preference */
-  resize: vertical; /* Allows resizing only vertically */
+textarea.FormInput {
+  height: 150px;
+  resize: vertical;
 }
 
-/* Button styling for submission */
-.formbold-btn {
+.FormButton {
   width: 100%;
-  background-color: #4CAF50;
+  background: rgb(166, 153, 243);
+  background: linear-gradient(166deg, rgba(166, 153, 243, 1) 0%, rgba(215, 50, 235, 1) 100%);
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 14px 25px;
+  margin: 25px 0;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.formbold-btn:hover {
-  background-color: #45a049;
+.FormButton:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Label styling for readability */
-.formbold-form-label {
-  margin-bottom: 8px;
+.FormLabel {
+  margin-bottom: 10px;
   display: block;
+  color: #07074D;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
 }

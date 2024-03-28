@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ProfilePic from './assets/hum.jpg';
+import ProfilePic from './assets/johnny.png';
 import Search from './assets/search.png';
 import Plus from './assets/plus.svg';
 import Previous from './assets/Previous.svg';
@@ -19,8 +19,8 @@ function App() {
         <div className='Side-Panel'>
           <div className='Profile-Info'>
             <img className='Profile-Pic' src={ProfilePic}></img>
-            <h2>Humayun Amin</h2>
-            <h3>System Admin</h3>
+            <h2>John Smith</h2>
+            <h3>Line Manager</h3>
           </div>
           <div className='Options-Container'>
             {/* Updated onClick handler */}
