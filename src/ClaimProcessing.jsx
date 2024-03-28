@@ -33,7 +33,7 @@ function App() {
               <img className='Search-Icon' src={Search}></img>
             </div>
             <div className='Claim-Parent' onClick={() => setPage(<PreviousClaims />)}>
-              <div>View claims</div>
+              <div>View Past claims</div>
               <img className='Previous-Icon' src={Previous}></img>
             </div>
           </div>
