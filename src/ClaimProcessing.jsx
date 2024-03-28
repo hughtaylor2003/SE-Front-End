@@ -8,7 +8,7 @@ import './ClaimProcessing.css';
 import AccountManagement from './AccountManagement';
 import CurrentClaims from './CurrentClaims';
 import PreviousClaims from './PreviousClaims';
-import ViewPendingClaims from './ViewPendingClaims'; // Added import for ViewPendingClaims
+import ViewPendingClaims from './ViewPendingClaims'; 
 
 function App() {
   const [page, setPage] = useState(<ClaimResponse />);
