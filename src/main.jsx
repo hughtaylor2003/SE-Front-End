@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SystemAdmin from './systemAdmin.jsx'; 
+import SystemAdmin from './ClaimProcessing.jsx'; 
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
